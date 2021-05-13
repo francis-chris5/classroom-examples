@@ -4,7 +4,7 @@
  * Request the data from the server in xml format, this way it looks
  * like everything you're used to doing in JavaScript with your document:
  * in particular .getElementsByTagName(...) will work the same if you don't put
- * id's or anything in the xml data
+ * id's or any other attributes in the xml data
  */
 function markup(){
 	let request = new XMLHttpRequest();
