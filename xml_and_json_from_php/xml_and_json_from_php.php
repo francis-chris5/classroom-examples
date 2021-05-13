@@ -78,7 +78,7 @@
 		 * individual JSON object.
 		 * changet the file location appropriately
 		 */
-		$toFile = fopen("testJSON.txt", "w");
+		$toFile = fopen("testJSON.json", "w");
 		fwrite($toFile, $jsonData);
 		fclose($toFile);
 	}//end JSON
