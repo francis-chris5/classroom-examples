@@ -25,6 +25,10 @@
 
 	$mode = $_REQUEST['mode']; //get this from javascript function
 
+		/*
+		 * Markup languages are much nicer to work with when the computer writes all the tags for us
+		 * and nests the elements right where they need to be in the structure
+		 */
 	if($mode == "xml"){
 			//in xml format
 		$xml = new DOMDocument("1.0", "UTF-8");
@@ -51,6 +55,12 @@
 		fwrite($toFile, $xml->saveXML());
 		fclose($toFile);
 	}//end XML
+
+
+		/*
+		 * If we know the data is going to be used in JavaScript, it doesn't hurt to just
+		 * have it sent to us already as a JavaScript Object.
+		 */
 	else if($mode == "json"){
 			//in json format
 		$jsonData = "";
