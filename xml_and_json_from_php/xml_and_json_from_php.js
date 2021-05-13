@@ -64,7 +64,7 @@ function processObject(jsonData){
 		 * Remember to open the inspector and put in a breakpoint so you
 		 * can pause the script and expand these things in the scope window
 		 * to see what all properties you have to work with, then it's just
-		 * element (dot) whatever is on that long list
+		 * object (dot) whatever is on that long list
 		 */
 	let payload = jsonData.split('\n');
 	let table = "<table border=\"1\">";
