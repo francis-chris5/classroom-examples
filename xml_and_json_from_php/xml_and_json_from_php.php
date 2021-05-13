@@ -41,7 +41,7 @@
 			$row->appendChild($xml->createElement("age", $record['age']));
 			$row->appendChild($xml->createElement("town", $record['town']));
 		}
-		header("Content-type: text/xml; charset=utf-8");
+		header("Content-type: text/xml; charset=utf-8"); //this line tells recipient what kind of data is coming
 		echo $xml->saveXML();
 		//now create a reference to a new doc as request.responseXML
 		/*
