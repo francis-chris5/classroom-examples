@@ -21,7 +21,8 @@ function markup(){
 
 function processMarkup(xmlData){
 		/*
-		 * Remember to open the inspector and put in a breakpoint so you
+		 * Remember to open the inspector on your favorite browser (push the
+		 * F12 key) and put in a breakpoint so you
 		 * can pause the script and expand these things in the scope window
 		 * to see what all properties you have to work with then it's just
 		 * element (dot) whatever is on that long list
@@ -61,7 +62,8 @@ function object(){
 
 function processObject(jsonData){
 		/*
-		 * Remember to open the inspector and put in a breakpoint so you
+		 * Remember to open the inspector on your favorite browser (push the
+		 * F12 key) and put in a breakpoint so you
 		 * can pause the script and expand these things in the scope window
 		 * to see what all properties you have to work with, then it's just
 		 * object (dot) whatever is on that long list
