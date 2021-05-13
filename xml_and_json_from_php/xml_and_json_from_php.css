@@ -1,0 +1,34 @@
+
+
+/*
+ * This file included for testing, you should be able to pre-setup some
+ * style rules for the things you'll have coming back from the
+ * database via ajax
+ */
+
+html{
+	min-height: 100%;
+}
+
+
+body{
+	background-image: linear-gradient(33deg, #ababab, #aeaeae);
+}
+
+
+section{
+	float: left;
+	width: 40%;
+	margin: 2em;
+	padding: 1.5em;
+	border: 2px dotted red;
+}
+
+article{
+	float: right;
+	width: 40%;
+	margin: 2em;
+	padding: 1.5em;
+	border: 2px dotted blue;
+}
+
