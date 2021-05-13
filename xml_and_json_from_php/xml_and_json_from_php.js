@@ -33,7 +33,7 @@ function processMarkup(xmlData){
 	for(let i = 0; i < names.length; i++){
 		table += "<tr><td>" + names[i].innerHTML + "</td></tr>";
 	}
-	table += "</table>";
+	table += "</tbody></table>";
 	document.getElementById('outputXML').innerHTML += table;
 }//end processMarkup()
 
