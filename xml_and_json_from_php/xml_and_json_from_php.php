@@ -43,7 +43,7 @@
 		}
 		header("Content-type: text/xml; charset=utf-8"); //this line tells recipient what kind of data is coming
 		echo $xml->saveXML();
-		//now create a reference to a new doc as request.responseXML
+		//now create a reference to a new doc assigned the request.responseXML
 		/*
 		 * maybe write this to a file as well so you can see what 
 		 * you have to work with, however, it's not in "pretty print" 
